@@ -13,7 +13,7 @@ p{
 p:hover{
     color:green;
     cursor: pointer;
-    transition: translate(0px, 0px) 0.5s;
+    /* transform:scale(5); */
     transform: translate(8px, 12px);
     /* transform: scale(1); */
 }
