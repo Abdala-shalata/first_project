@@ -1,5 +1,8 @@
 body{
-    background-color: blue;
+    background-image:linear-gradient(to top,blue,transparent);
+    background-size:100% 900px;
+    background-repeat:no-repeat;
+    
 }
 
 p{
