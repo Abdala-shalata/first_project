@@ -6,3 +6,8 @@ p{
     font-size:50px;
     color:red;
 }
+
+p:hover{
+    color:green;
+    cursor: pointer;
+}
