@@ -1,1 +1,1 @@
-alert("enter the ok button");
+// alert("enter the ok button");

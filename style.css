@@ -1,16 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 body{
     background-image:linear-gradient(to top,blue,transparent);
-    background-size:100% 900px;
+    background-size:100% 100%;
     background-repeat:no-repeat;
     
 }
 
-p{
+.p1{
     font-size:50px;
     color:red;
 }
 
-p:hover{
+.p1:hover{
     color:green;
     cursor: pointer;
     /* transform:scale(5); */
@@ -19,11 +24,64 @@ p:hover{
 }
 
 h1{
-    text-decoration:underline;
-    color: green;
+    font-size:100px;
+    color:blue;
+    text-align:center;
 }
-h1:hover{
-    color:red;
-    transform: scaleX(0.9);
-    background:yellow;
+
+img{
+    width:50%;
+    height:300px;
+    border:2px black solid;
+    border-radius:7px;
+    box-shadow: 5px 5px 8px 9px rgba(0, 0, 0, 0.973);
+    transform:scale(1);
+    position: relative;
+    bottom:0;
+    top:30px;
+}
+
+img:hover{
+    transition: 0.5s;
+    transform:scale(0.5);
+}
+
+
+#float{
+    float:right;
+    width:30%;
+    font-size:30px;
+}
+
+
+.span1{
+    font-weight:800;
+    font-size:80px;
+}
+
+table{
+    position:relative;
+    top:70px;
+    left:20px;
+    font-size:30px;
+    border-spacing:7px;
+    border-radius:7px;
+    border:3px solid black;
+    box-shadow:7px 6px 10px 7px rgba(0, 0, 0, 0.973);
+}
+
+table th{
+    background-color: aquamarine;
+
+}
+
+table td{
+    background-color: lightblue;
+    border-radius:7px;
+}
+
+/* pseudo element*/
+#float::selection{
+    background-color:rgb(0, 255, 21);
+    color:white;
 }
